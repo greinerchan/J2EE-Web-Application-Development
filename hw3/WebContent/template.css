@@ -1,0 +1,87 @@
+.title {
+	width: 1000px;
+	height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: lightblue;
+    font-size:"verdana";
+}
+.navbar {
+	width: 150px;
+	height: 1000px;
+    text-align: center;
+    background-color: lightblue;
+    font-size: large;
+}
+.login {
+    text-align: center;
+    font-family:"Arial";
+    font-size:"20";
+    color: #0080ff;
+    padding:0px;
+    margin:0px;  
+	background-color: lightgray;
+    width: 330px;
+    border-width: 6px;
+    border-style: inset;
+    border-color: lightblue;
+	height:200px;
+
+	top:70%;
+	left:50%;
+	position:absolute;
+	margin-top:-180px;
+	margin-left:-300px;
+	}
+.register {
+	text-align: center;
+    font-family:"Arial";
+    font-size:"20";
+    color: #0080ff;
+    padding:0px;
+    margin:0px;  
+	background-color: lightgray;
+    width: 350px;
+    border-width: 6px;
+    border-style: inset;
+    border-color: lightblue;
+	height:300px;
+
+	top:70%;
+	left:50%;
+	position:absolute;
+	margin-top:-180px;
+	margin-left:-300px;
+}
+.button{
+	text-align: center;
+}
+.mycomment {
+    font-family:"Arial";
+    font-size:"20";
+    width: 420px;
+	text-align:left;
+	height:350px;
+
+	top:70%;
+	left:50%;
+	position:absolute;
+	margin-top:-180px;
+	margin-left:-300px;
+}
+.comment{
+	text-indent:2em
+}
+.owner {
+	font-family:"Arial";
+    font-size:"20";
+    width: 200px;
+	text-align:center;
+	height:200px;
+	top:35%;
+	left:48%;
+	position:absolute;
+	margin-top:-50px;
+	margin-left:-175px;
+}
+

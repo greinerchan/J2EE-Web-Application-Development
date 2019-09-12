@@ -1,0 +1,51 @@
+.title {
+	width: 1000px;
+	height: 100px;
+    font-size: xx-large;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    background-color: lightblue;
+}
+
+.navbar {
+	width: 1000px;
+	height: 50px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+    font-size: xx-large;
+    font-family: monospace;
+ }
+
+a:hover {
+	color: white;
+	background-color: grey;
+ }
+
+.sub-title {
+    font-size: xx-large;
+    padding: 25px;
+}
+
+table {
+	padding-top: 10px;
+	padding-left: 50px;
+}
+
+td {
+	font-size: x-large;
+	font-family: monospace;
+	padding: 5px;
+}
+
+.error {
+    font-size: x-large;
+    color:red;
+    font-family: sans-serif;
+    padding: 25px;
+}

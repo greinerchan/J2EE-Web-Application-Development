@@ -1,0 +1,25 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+
+    <display-name>GenericDAO Demo</display-name>
+    <description>
+      Example of the use of Generic DAO
+    </description>
+ 
+    <context-param>
+        <param-name>  jdbcDriverName        </param-name>
+        <param-value> com.mysql.jdbc.Driver </param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>  jdbcURL               </param-name>
+        <param-value> jdbc:mysql:///test?useSSL=false </param-value>
+    </context-param>
+
+    <welcome-file-list>
+        <welcome-file>    ToDoList              </welcome-file>
+    </welcome-file-list>
+</web-app>

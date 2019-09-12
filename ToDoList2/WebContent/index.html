@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="todolist.css">
+    <title>Shared To Do List #2</title>
+</head>
+
+<body>
+	<div class="title">Shared To Do List #2</div>
+	
+	$error-messages$
+
+	<form class="add-form" method="POST">
+	    <table>
+	        <tr>
+	            <td>
+				    <label for="item">Item to add:</label>
+	            	</td>
+	            <td>
+				    <input type="text" id="item" name="item" autofocus>
+	            </td>
+	        </tr>
+	        <tr>
+	        		<td></td>
+	            <td>
+			    		<button type="submit" name="action" value="top">Add to Top</button>
+			    		<button type="submit" name="action" value="bottom">Add to Bottom</button>
+	            </td>
+	        </tr>
+	    </table>
+	</form>
+
+<div class="sub-title"> Current todo list has $num$ items: </div>
+
+<ol>
+	$list$
+</ol>
+
+<form method="POST">
+	<button type="submit" name="action" value="logout">Logout</button>
+</form>
+
+</body>
+</html>
